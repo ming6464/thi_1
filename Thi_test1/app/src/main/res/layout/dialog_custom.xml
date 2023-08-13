@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="#FFF177"
+        android:orientation="vertical"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="25dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/dialogCus_ed_msv"
+            android:hint="Mã sinh viên"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/dialogCus_ed_ten"
+            android:hint="Họ tên"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:hint="Email"
+            android:id="@+id/dialogCus_ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:hint="Địa chỉ"
+            android:id="@+id/dialogCus_ed_diaChi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/dialogCus_ed_diem"
+            android:hint="Điểm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:hint="ảnh"
+            android:id="@+id/dialogCus_ed_anh"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>
